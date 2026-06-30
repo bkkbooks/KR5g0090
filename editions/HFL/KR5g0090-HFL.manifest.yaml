@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0090/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0090/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 五嶽真形序論
+  date: '2015-08-29 02:53:58.536691'
+  source:
+    repository: kanripo
+    path: KR5g0090
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0090_000-HFL.yaml, hash: 'sha256:4d4834a8a23cb1fe780496bb918fb128808422a03fd2c5f72e20f5312c8ac2cf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0090_000-HFL.markers.yaml, hash: 'sha256:2808c0964afb53fdf3f8886e0fb15bb4412cfd1925366a2256018dbf1f208f08'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0090_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5343
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9da6750620ba9c1dac5960983b3264ffa2861ef700474e1c52dfa40bf2dc03e0
